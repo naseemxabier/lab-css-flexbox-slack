@@ -62,9 +62,7 @@ h1{
 header div p::selection {
     color: #ECB12F;
 }
-h3 {
-    color: white;
-}
+
 header div p {
     margin-bottom: 20px;
     text-align: center;
@@ -117,21 +115,22 @@ main section p {
     text-align: center;
     text-transform: capitalize;
 }
-main section div img:nth-child(-n+4) {
+main section:first-child div img{
     padding-left: 10px;
     flex-wrap: wrap;
     justify-content: center;
-    width: 4rem;
+    width: 18vw;
 }
-main section div img:nth-child(5){
-    width: 200px;
-    padding-left: 10px;
-}
-main section div img:nth-child(6){
-    width: 150px;
+main section + section div img {
+    width: 100vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 h2 {
     color: #191817;
+}
+main section div p {
+    text-align: left;
 }
 span {
     color: #2E71A6
@@ -139,8 +138,4 @@ span {
 main section div a {
     color: #2E71A6;
     
-}
-main section + section div img {
-    width: 200px;
-    height: 250px;
 }
