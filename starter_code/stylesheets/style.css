@@ -102,7 +102,7 @@ header div div  button + button {
     background-color: #4285F4;
     color: white;
     justify-content: center;
-    position: relative
+    position: relative;
 }
 strong{
     color: #ECB12F;
@@ -186,22 +186,21 @@ main section:last-child {
 main section:last-child button {
     justify-items: center;
     display: flex;
-    flex-direction: row;
-    margin-bottom: 5px;
+    flex-direction: column-reverse;
+    margin-bottom: 45px;
     text-transform: capitalize;
-}
-main section button:first-child {
-    color: white;
-    background-color: #540B51;
-    border-radius: 7px;
-    border: none;
-    text-align: cente r;
-    padding: 10px;
-}
-main section button + button {
+    padding: 15px;
     color: #540B51;
     background-color: white;
     border-radius: 7px;
-    border: 2px solid #540B51;
+    border: none;
+    text-align: center;
+}
+main section button + button {
+    color: white;
+    background-color:#540B51;
+    border-radius: 7px;
+    border: 2px solid white;
     text-align: center;
     padding: 10px;
+}
