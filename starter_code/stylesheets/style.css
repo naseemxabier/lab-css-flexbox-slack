@@ -1,10 +1,99 @@
-/*
-background purple: #540B51
-background ivory: #F3EAE2
-button blue: #4285F4
-titles black: #191817
-paragraph black: #000000
-paragraph yellow: #ECB12F
-links blue: #2E71A6
-footer links grey: #454245
-*/
+/*{background-color;: purple: #540B51;
+background ivory: #F3EAE2;
+button blue: #4285F4;
+titles black: #191817;
+paragraph black: #000000;
+paragraph yellow: #ECB12F;
+links blue: #2E71A6;
+footer links grey: #454245;
+}*/
+* {
+    font-size: 20px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #540B51;
+}
+nav {
+    background-color: #540B51;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25px;
+    padding-bottom: 10px;
+}
+nav div img {
+    width: 5rem;
+    height: 1.5rem;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    }
+nav div button {
+    background-color: #540B51;
+    border: none;
+}
+nav div button img {
+    width: 1rem;
+    height: 1rem;
+    color: #4285F4;
+    background-color: #540B51;
+    margin-right: 20px;
+
+}
+nav div ul {
+    display: none;
+}
+    
+main {
+    background-color: #F3EAE2;
+}
+footer {
+    background-color: #F3EAE2;
+}
+h1{
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+header div p::selection {
+    color: #ECB12F;
+}
+h3 {
+    color: white;
+}
+header div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header div div button {
+    width: 18rem;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+header div div button img {
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+}
+header div div :first-of-type {
+    background-color: white;
+}
+header div div :last-of-type {
+    background-color: #4285F4;
+    color: white;
+}
+strong{
+    color: #ECB12F;
+}
