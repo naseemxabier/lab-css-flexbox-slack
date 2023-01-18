@@ -173,10 +173,35 @@ main section div button + button {
     padding: 10px;  
 }
 main section ul li p:first-child span {
-    font-size: 5rem;
+    font-size: 2rem;
     color: #540B51;
 
 }
 sup {
     background-color: white;
 }
+main section:last-child {
+    background-color: #540B51;
+}
+main section:last-child button {
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+main section button:first-child {
+    color: white;
+    background-color: #540B51;
+    border-radius: 7px;
+    border: none;
+    text-align: cente r;
+    padding: 10px;
+}
+main section button + button {
+    color: #540B51;
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid #540B51;
+    text-align: center;
+    padding: 10px;
