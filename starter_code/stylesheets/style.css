@@ -132,10 +132,51 @@ h2 {
 main section div p {
     text-align: left;
 }
-span {
+a span {
     color: #2E71A6
 }
 main section div a {
-    color: #2E71A6;
-    
+    color: #2E71A6;   
+}
+main section + section +section + section +section {
+    background-color: white;
+}
+h3{
+    margin-top: 50px;
+    text-align: center;
+}
+main section p {
+    text-align: center;
+}
+main section div button {
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+   
+}
+main section div button:first-child {
+    color: white;
+    background-color: #540B51;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+main section div button + button {
+    color: #540B51;
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid #540B51;
+    text-align: center;
+    padding: 10px;  
+}
+main section ul li p:first-child span {
+    font-size: 5rem;
+    color: #540B51;
+
+}
+sup {
+    background-color: white;
 }
