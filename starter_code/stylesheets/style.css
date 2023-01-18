@@ -140,6 +140,7 @@ main section div a {
     color: #2E71A6;
     
 }
-main section div: :last-child{
-    width: 2000px;
+main section + section div img {
+    width: 200px;
+    height: 250px;
 }
