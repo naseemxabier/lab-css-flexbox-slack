@@ -56,7 +56,6 @@ h1{
     color: white;
     font-size: 2.3rem;
     text-align: center;
-    margin-bottom: 40px;
     padding: 20px;
 
 }
@@ -92,17 +91,16 @@ header div div button {
 header div div button > img {
     width: 2rem;
     height: 2rem;
-    background-color: white;
     position: absolute;
-    top: -10px;
-    left: -50px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
 }
 header div div :first-of-type {
-    background-color: white;
     justify-content: center;
     color: #540B51;
 }
-header div div :last-of-type {
+header div div  button + button {
     background-color: #4285F4;
     color: white;
     justify-content: center;
@@ -110,4 +108,38 @@ header div div :last-of-type {
 }
 strong{
     color: #ECB12F;
+}
+header div img {
+    width: 100%
+}
+main section p {
+    padding-top: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+main section div img:nth-child(-n+4) {
+    padding-left: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 4rem;
+}
+main section div img:nth-child(5){
+    width: 200px;
+    padding-left: 10px;
+}
+main section div img:nth-child(6){
+    width: 150px;
+}
+h2 {
+    color: #191817;
+}
+span {
+    color: #2E71A6
+}
+main section div a {
+    color: #2E71A6;
+    
+}
+main section div: :last-child{
+    width: 2000px;
 }
